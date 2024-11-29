@@ -215,10 +215,10 @@ nav{
   height: 50%;
 }
 .progress{
-  padding-left: 20%;
+  padding-left: 0%;
   padding-top: 5%;
   display: flex;
-  gap: 30%;
+  gap: 15%;
   color: rgb(255, 45, 118);
 }
 
@@ -279,10 +279,13 @@ background-color: rgb(255, 39, 97);
 
 .education-section {
   padding: 140px;
+  display: flex;
   background-color:transparent;
   border-radius: 8px;
   max-width: 1000px;
   margin-left: 25%;
+  overflow: hidden;
+  flex-wrap: wrap;
 
 }
 
@@ -343,7 +346,7 @@ background-color: rgb(255, 39, 97);
 /* 
 achi */
 .acards{
-  max-height: 200px;
+  /* max-height: 200px; */
   width: 80%;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
@@ -379,6 +382,7 @@ achi */
   background-color: #222;
   border: 1px solid rgba(216, 12, 94, 0.572);
   border-radius: 10px;
+  overflow: hidden;
 
 
 
@@ -475,6 +479,7 @@ i{
   border: 1px solid black;
   margin: 1% 2%;
   border-radius: 15px;
+  overflow: hidden;
 
   
   
@@ -491,4 +496,194 @@ i{
 
 .skills{
   color: #7d7878;
+}
+.card1 img {
+  /* object-fit:cover; */
+  
+
+}
+
+.acard1 img{
+  /* object-fit: cover; */
+
+}
+
+
+
+
+
+
+
+
+
+
+/* Mobile View: Adjust styles for smaller screens */
+@media (max-width: 768px) {
+  .slide1, .slide2, .slide3, .slide4 {
+    height: auto; /* Allow content height to adjust dynamically */
+    padding: 20px; /* Add padding for better spacing */
+  }
+
+  nav {
+    flex-direction: column; /* Stack nav elements vertically */
+    gap: 10px;
+    padding-top: 10px;
+  }
+
+  #navmenu {
+    flex-direction: column;
+    width: 100%; /* Ensure full width */
+    gap: 10px;
+  }
+
+  #navmenu ul button {
+    width: 100%; /* Button takes full width */
+    font-size: 14px;
+  }
+
+  .slide1-content {
+    flex-direction: column; /* Stack content vertically */
+    gap: 20px;
+  }
+
+  .slide1left, .slide1right {
+    width: 100%; /* Full width on small screens */
+    margin: 0 auto; /* Center alignment */
+  }
+
+  .proj, .Projects, .Project {
+    flex-direction: column; /* Stack projects vertically */
+    width: 100%;
+  }
+
+  .details, .profile {
+    width: 100%;
+    text-align: center; /* Center align content */
+  }
+
+  .education-section {
+    padding: 20px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .cards, .acards {
+    flex-direction: column; /* Stack cards vertically */
+    gap: 20px;
+    overflow-x: visible; /* Prevent horizontal scroll */
+    width: 100%;
+  }
+  .acards {
+    flex-direction: column; /* Stack cards vertically */
+    gap: 20px;
+    overflow-x: visible; /* Prevent horizontal scroll */
+    width: 80%;
+  }
+
+  .card1, .acard1 {
+    min-width: 100%;
+    height: 100px;
+    overflow: hidden;
+  }
+
+
+.Projects {
+  flex-direction: column; /* Stack content vertically */
+  gap: 20px; /* Add spacing */
+  width: 100%; /* Full width */
+  height: auto; /* Dynamic height */
+}
+.proj {
+  width: 100%; /* Full width for small screens */
+  height: auto; /* Dynamic height */
+  margin: 0 auto; /* Center alignment */
+}
+
+.card1 img, #photo {
+  width: 100%; 
+  height: auto; 
+  overflow: hidden;
+}
+.education-section {
+  /* padding: 140px; */
+  display: flex;
+  background-color:transparent;
+  border-radius: 8px;
+
+
+  overflow: hidden;
+  flex-wrap: wrap;
+
+}
+
+.education-title {
+  font-size: 35px;
+  color: rgba(164, 33, 79, 0.915);
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+ 
+}
+
+.education-content h2 {
+  font-size: 25px;
+  
+  margin: 15px 0;
+  line-height: 1.5;
+  color: #9b9b9b;
+  text-shadow: #555 2px 2px 2px;
+
+}
+
+.education-content h2 span {
+  font-weight: normal;
+  color: #555;
+  border: 5px solid black;
+}
+
+
+.acard1 img{
+  padding: 0% 0%;
+  object-fit: cover;
+  min-width:100%;
+
+}
+.progress{
+  padding-left: 0%;
+  padding-top: 5%;
+  display: flex;
+  gap: 15%;
+  color: rgb(255, 45, 118);
+}
+
+.skill h2 i{
+  font-size: 35px;
+  color: rgba(164, 33, 79, 0.915);
+}
+
+.tools h2 i{
+  font-size: 35px;
+  color: rgba(164, 33, 79, 0.915);
+}
+
+.skills{
+  color: #7d7878;
+}
+.card1 img {
+  /* object-fit:cover; */
+  
+
+}
+
+.acard1 img{
+  /* object-fit: cover; */
+
+}
+.actitle{
+  font-size: 35px;
+}
+
+
 }
