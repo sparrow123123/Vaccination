@@ -1,0 +1,494 @@
+
+*{
+  padding: 0%;
+  margin: 0%;
+ 
+}
+.slide1{
+  color: aquamarine;
+  position:static;
+
+  padding: 0;
+  margin: 0;
+  background:linear-gradient(150deg,rgb(204, 78, 130), rgb(17, 16, 20) 60%);
+  /* background: radial-gradient(blue, black); */
+  /* background: radial-gradient(ellipse, blue, black); */
+  /* background: linear-gradient(rgb(198, 78, 238), rgba(0, 0, 0, 1)); */
+  
+  width: 100%;
+  height: 100vh;
+  
+}
+.slide2{
+  color: aquamarine;
+
+  padding: 0;
+  margin: 0;
+  background:linear-gradient(30deg,rgb(204, 78, 130), rgb(17, 16, 20) 60%);
+  /* background: radial-gradient(blue, black); */
+  /* background: radial-gradient(ellipse, blue, black); */
+  /* background: linear-gradient( rgba(0, 0, 0, 1),rgb(198, 78, 238)); */
+  
+  width: 100%;
+  height: 100vh;
+  
+}
+.slide3{
+  color: aquamarine;
+
+  padding: 0;
+  margin: 0;
+  background:linear-gradient(150deg,rgb(204, 78, 130), rgb(17, 16, 20) 60%);
+  /* background: radial-gradient(blue, black); */
+  /* background: radial-gradient(ellipse, blue, black); */
+  /* background: linear-gradient(rgb(198, 78, 238), rgba(0, 0, 0, 1)); */
+  
+  width: 100%;
+  height: 100vh;
+  
+}
+
+.slide4{
+  color: aquamarine;
+
+  padding: 0;
+  margin: 0;
+  background:linear-gradient(30deg,rgb(204, 78, 130), rgb(17, 16, 20) 60%);
+
+  /* background: radial-gradient(blue, black); */
+  /* background: radial-gradient(ellipse, blue, black); */
+  /* background: linear-gradient(rgb(198, 78, 238), rgba(0, 0, 0, 1)); */
+  
+  width: 100%;
+  height: 100vh;
+  
+}
+
+
+nav{
+  position: relative;
+  display: flex;
+  padding-top: 5%;
+  gap: 20%;
+
+  
+  
+ 
+}
+#navlogo{
+  position: relative;
+  padding-left: 5%;
+  color: black;
+  
+
+}
+#navmenu{
+  
+  width: 60%;
+ 
+ position: relative;
+  display: flex;
+  justify-content:space-between;
+  /* align-items: ; */
+}
+#navmenu ul button{
+  position: relative;
+  height: 60%;
+  width: 120%;
+  padding: 2%;
+  border-radius: 20px;
+  color:rgba(216, 24, 107, 0.805); ;
+  border: 1px solid black;
+  background-color:rgba(0, 0, 0, 0.663);
+  cursor: pointer;
+  font-size: 15px;  
+}
+#navmenu ul a{
+  color:rgba(216, 24, 107, 0.805); ;
+  /* position: relative;
+  height: 60%;
+  width: 120%;
+  padding: 2%;
+  border-radius: 20px;
+  
+  border: 1px solid black;
+  background-color:rgba(0, 0, 0, 0.663);
+  cursor: pointer;
+  font-size: 15px;   */
+}
+#navmenu ul button:hover{
+  position: relative;
+  height: 60%;
+  width: 120%;
+  padding: 2%;
+  border-radius: 20px;
+  color: black;
+  border: 1px solid black;
+  background-color:rgba(216, 24, 107, 0.805);;
+  cursor: pointer;
+  font-size: 15px;  
+}
+#navmenu ul a:hover{
+  color: black;
+  /* position: relative;
+  height: 60%;
+  width: 120%;
+  padding: 2%;
+  border-radius: 20px;
+ 
+  border: 1px solid black;
+  background-color:rgba(216, 24, 107, 0.805);;
+  cursor: pointer;
+  font-size: 15px;   */
+}
+
+.slide1-content{
+  position: relative;
+  display: flex;
+}
+.slide1left{
+  margin-left: 10%;
+  margin-top: 7%;
+ position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+  
+  width: 50%;
+  height: 50vh;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  color: rgba(154, 147, 145, 0.928);
+}
+.slide1left a{
+  color:rgba(216, 24, 107, 0.805); 
+}
+
+.slide1left button{
+  position: relative;
+  height: 10%;
+  width: 20%;
+  padding: 2%;
+  border-radius: 20px;
+  color:rgba(216, 24, 107, 0.805); 
+  border: 1px solid black;
+  background-color:rgba(0, 0, 0, 0.663);
+  cursor: pointer;
+  font-size: 15px;  
+
+}
+.slide1right{
+ margin-left: 10%;
+ margin-top: 7%;
+ width: 50%;
+ height: 50vh;
+ position: relative;
+ display: flex;
+ flex-direction: column;
+ /* background-color: rgb(103, 143, 143); */
+}
+
+
+.profile{
+  height: 30%;
+  width: 30%;
+  /* background-color: aqua; */
+}
+.photo{
+  width: 40px;
+  height: 40px;
+}
+#photo{
+  width: 300px;
+  height: 350px;
+  border-radius: 45%;
+  margin-left: 20%;
+  border: 3px solid black ;
+  color: rgb(255, 0, 162);
+
+}
+
+.details{
+  color: whitesmoke;
+  width: 50%;
+  height: 50%;
+}
+.progress{
+  padding-left: 20%;
+  padding-top: 5%;
+  display: flex;
+  gap: 30%;
+  color: rgb(255, 45, 118);
+}
+
+.progress h2{
+  color: rgb(255, 45, 118);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  
+}
+.progress h2:hover{
+  color: rgb(255, 45, 118);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+
+  
+}
+
+.proj{
+ 
+margin-left: 2%;
+margin-top: 10%;
+border: 2px solid black;
+border-radius: 10%;
+width: 40%;
+height: 40%;
+background-color: rgb(255, 39, 97);
+}
+.Projects{
+  display: flex;
+  width: 90%;
+  height: 98vh;
+  gap: 5%;
+  
+}
+.Project{
+  padding-top: 5%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .Education{
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+}
+
+
+.Education{
+  padding-left: 10%;
+  font-size: x-large;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  color: rgb(137, 139, 139);
+} */
+ /* Education.css */
+
+.education-section {
+  padding: 140px;
+  background-color:transparent;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin-left: 25%;
+
+}
+
+.education-title {
+  font-size: 50px;
+  color: rgba(164, 33, 79, 0.915);
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 20px;
+ 
+}
+
+.education-content h2 {
+  font-size: 35px;
+  
+  margin: 10px 0;
+  line-height: 1.5;
+  color: #9b9b9b;
+  text-shadow: #555 2px 2px 2px;
+
+}
+
+.education-content h2 span {
+  font-weight: normal;
+  color: #555;
+  border: 5px solid black;
+}
+
+.progress button{
+  background-color: black;
+  color:rgb(249, 45, 117);;
+  width: 100px;
+  height: 40px;
+  font-size:smaller;
+  border-radius: 30px;
+
+}
+
+.progress button:hover{
+  cursor: pointer;
+  background-color: rgb(249, 45, 117);
+  color: black;
+  width: 100px;
+  height: 40px;
+  font-size:smaller;
+  border-radius: 30px;
+}
+.p{
+  display: flex;
+}
+
+
+
+
+
+
+/* 
+achi */
+.acards{
+  max-height: 200px;
+  width: 80%;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  display: flex;
+  padding: 10px 20px;
+  gap: 40px;
+  overflow-x: auto;
+  scrollbar-color: rgba(164, 33, 79, 0.915) #000000;
+  
+
+  
+
+  
+}
+.amaincard{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  
+  background-color:transparent;
+
+}
+.acard1{
+  height: 180px;
+  min-width: 250px;
+  background-color: #222;
+  border: 1px solid rgba(216, 12, 94, 0.572);
+  border-radius: 10px;
+
+
+
+  
+  
+
+}
+.actitle{
+  font-size: 50px;
+  color: rgba(164, 33, 79, 0.915);
+}
+
+.footer{
+  margin-top: 5%;
+
+  height: 35%;
+  width: 90%;
+  /* background-color: #222; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20%;
+}
+.f1{
+  width: 30%;
+  height: 50%;
+ 
+
+}
+i{
+  color: #090909;
+/*   
+  text-shadow: #2d2d2d 2px 2px 2px; */
+}
+
+.f1 ul h2 i{
+  color: #090909;
+  
+  text-shadow: #bf0647 2px 2px 2px;
+
+}
+.f1 ul h4 {
+  color: #090909;
+  
+  text-shadow: #1f1e1e 2px 2px 2px;
+
+}
+
+.skills{
+  width: 90%;
+  height: 250px;
+  background-color: transparent;
+  /* border: 1px solid black;
+  */
+}
+.cards{
+  width: 90%;
+  height: 250px;
+  background-color:transparent;
+  border: 1px solid black;
+  display: flex;
+  align-items:center;
+  gap: 9%;
+    overflow-x: auto;
+  border-radius: 15px;
+
+  
+
+}
+
+.maincard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  width: 90%;
+  padding: 5% 5%;
+  
+  
+  
+
+}
+
+.ctitle{
+  font-size: 30px;
+  color: rgba(36, 9, 18, 0.915);
+
+}
+
+.card1{
+  min-width: 23%;
+  height: 80%;
+  border: 1px solid black;
+  margin: 1% 2%;
+  border-radius: 15px;
+
+  
+  
+}
+.skill h2 i{
+  font-size: 50px;
+  color: rgba(164, 33, 79, 0.915);
+}
+
+.tools h2 i{
+  font-size: 50px;
+  color: rgba(164, 33, 79, 0.915);
+}
+
+.skills{
+  color: #7d7878;
+}
