@@ -1,9 +1,10 @@
 import React from 'react'
 import '.././App.css'
 import Education from './Education'
-import project from './project'
-import Project from './project'
+
 import Achivement from './Achivement'
+import Project from './project'
+
 
 
 
