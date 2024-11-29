@@ -3,7 +3,8 @@ import '.././App.css'
 import Education from './Education'
 
 import Achivement from './Achivement'
-import Project from './project'
+import Project from './Pro'
+
 
 
 

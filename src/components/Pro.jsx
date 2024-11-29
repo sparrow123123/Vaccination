@@ -1,7 +1,7 @@
 import React from 'react'
 import Skills from './Skills'
 
-function Project() {
+function Pro() {
   return (
     
 
@@ -46,4 +46,4 @@ function Project() {
   )
 }
 
-export default Project
+export default Pro
